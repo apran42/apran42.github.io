@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Dev. Yun"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Junho Yun"
@@ -106,13 +106,13 @@ analytics:
 author:
   name             : "Junho Yun"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "I'm a student to be a developer!"
+  location         : "Seoul, S. Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:flyingdisc1@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -124,7 +124,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/apran42"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -282,7 +282,77 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: "Algorithms"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+  - scope:
+      path: "/categories/App"
+      type: "App"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+  - scope:
+      path: "/categories/Back end"
+      type: "Back end"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+  - scope:
+      path: "/categories/BOJ"
+      type: "BOJ"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+  - scope:
+      path: "/categories/Data_Structure"
+      type: "Data Structure"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+  - scope:
+      path: "/categories/Database"
+      type: "Database"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+  - scope:
+      path: "/categories/Front_end/"
+      type: "Front end"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+  - scope:
+      path: "/categories/Web"
+      type: "Web"
     values:
       layout: single
       author_profile: true
