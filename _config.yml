@@ -16,12 +16,12 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Dev. Yun"
+title                    : "Site Title"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Junho Yun"
+name                     : "Your Name"
 description              : "An amazing website."
-url                      : "https://apran42.github.io"
+url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -66,14 +66,14 @@ lunr:
   search_within_pages    : # true, false (default)
 algolia:
   application_id         : # YOUR_APPLICATION_ID
-  index_name             : "Junho Yun"
+  index_name             : # YOUR_INDEX_NAME
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification : "qO3wadBrtI6hp2bWKIkqxD-ty07Np-PBgKVCW_qoAko"
+google_site_verification :
 bing_site_verification   :
 naver_site_verification  :
 yandex_site_verification :
@@ -96,24 +96,23 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id          :
-    measurement_id       : "G-65BHQBZ9L7"
     anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
-  name             : "Junho Yun"
+  name             : "Your Name"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I'm a student to be a developer!"
-  location         : "Seoul, S. Korea"
+  bio              : "I am an **amazing** person."
+  location         : "Somewhere"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:flyingdisc1@naver.com"
+      # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -125,7 +124,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/apran42"
+      # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -283,77 +282,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: "Algorithms"
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
-  - scope:
-      path: "/categories/App"
-      type: "App"
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
-  - scope:
-      path: "/categories/Back end"
-      type: "Back end"
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
-  - scope:
-      path: "/categories/BOJ"
-      type: "BOJ"
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
-  - scope:
-      path: "/categories/Data_Structure"
-      type: "Data Structure"
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
-  - scope:
-      path: "/categories/Database"
-      type: "Database"
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
-  - scope:
-      path: "/categories/Front_end/"
-      type: "Front end"
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
-  - scope:
-      path: "/categories/Web"
-      type: "Web"
+      type: posts
     values:
       layout: single
       author_profile: true
