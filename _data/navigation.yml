@@ -1,12 +1,58 @@
 # main links
-main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+# main:
+#   - title: "Quick-Start Guide"
+#     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+#   - title: "About"
+#     url: https://mmistakes.github.io/minimal-mistakes/about/
+#   - title: "Sample Posts"
+#     url: /year-archive/
+#   - title: "Sample Collections"
+#     url: /collection-archive/
+#   - title: "Sitemap"
+#     url: /sitemap/
+
+# 메인 네비게이션바를 아직 못 만듬
+    
+# main-sidebars
+main-sidebar:
+  - title: "Baekjoon"
+    url: "/baekjoon/"
+    children:
+    - title: "Bronze"
+      url: "/baekjoon/bronze/"
+    - title: "Silver"
+      url: "/baekjoon/silver/"
+    - title: "Gold"
+      url: "/baekjoon/gold/"
+  - title: "Back end"
+    url: "/back_end/"
+    children:
+    - title: "Python"
+      url: "/back_end/python/"
+    - title: "JavaScript"
+      url: "/back_end/javascript/"
+    - title: "Java"
+      url: "/back_end/java/"
+    - title: "Kotlin"
+      url: "/back_end/kotlin/"
+  - title: "Front end"
+    url: "/front_end/"
+    children:
+    - title: "HTML"
+      url: "/front_end/html/"
+    - title: "CSS"
+      url: "/front_end/css/"
+    - title: "JavaScript"
+      url: "/front_end/javascript/"
+    - title: "React"
+      url: "/front_end/react/"
+    - title: "Angular"
+      url: "/front_end/angular/"
+    - title: "Vue.js"
+      url: "/front_end/vue/"
+  - title: "Database"
+    url: "/database/"
+  - title: "Android"
+    url: "/android/"
+  - title: "Others"
+    url: "/others/"
