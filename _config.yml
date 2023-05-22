@@ -260,3 +260,5 @@ defaults:
       related: true
       sidebar:
         nav: "main-sidebar"
+
+google_drive_url: "https://drive.google.com/uc?export=view&id="
