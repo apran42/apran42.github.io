@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "[BOJ] 11866. 요세푸스 문제 0"
+title: "[BOJ] 11866. 요세푸스 문제 0_C"
 category: ["baekjoon", "silver"]
 date: "2023-05-18 00:00:00 +0900"
-last_modified_at: "2023-05-20 00:00:00 +0900"
+last_modified_at: "2023-05-24 09:00:00 +0900"
 ---
 
 ## **_[11866. 요세푸스 문제 0](https://icpc.me/11866)_**
